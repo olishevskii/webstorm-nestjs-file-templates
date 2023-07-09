@@ -1,5 +1,5 @@
 #set( $className = ${StringUtils.removeAndHump(${NAME}, "-")} )
-import { Injectable, Logger } from "@nestjs/common";
+import { Injectable, Logger } from '@nestjs/common';
 
 @Injectable()
 export class ${className}Service {
