@@ -7,4 +7,6 @@ import { ApiTags } from '@nestjs/swagger';
 @Controller('${NAME}')
 export class ${className}Controller {
   constructor() {}
+  
+  #[[$END$]]#
 }
